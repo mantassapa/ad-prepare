@@ -1,0 +1,39 @@
+:root{
+  --primary-color: rgb(17, 16, 16);
+  --secondary-color: rgb(198, 203, 206);
+  --warning-color: rgb(190, 6, 6);
+  --background-color: linear-gradient(to right,rgb(1, 7, 47) , rgb(19, 1, 19));
+}
+.light-theme{
+  --primary-color: rgb(250, 250, 250);
+  --secondary-color: rgb(0, 0, 0);
+  --background-color: linear-gradient(to right,rgb(209, 233, 236) , rgb(174, 205, 236));
+}
+
+*{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+header>button{
+  border-radius: 5px;
+}
+/* forms */
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+  gap: 5px;
+  position: relative;
+}
+form>h2{
+  margin-left: 35%;
+}
